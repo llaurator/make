@@ -1,5 +1,7 @@
 # Automatització amb make
 
+{:toc}
+
 ![img](logo.jpg)
 
 ## hola.c
@@ -12,7 +14,7 @@
 
 ### Creeu i compileu el primer programa de la calculadora per verificar que funciona
 
-```calc.c```
+`calc.c`
 
 ```C
 int suma(int op1, int op2)
@@ -36,7 +38,7 @@ int divideix(int op1, int op2)
 }
 ```
 
-```calc.h```
+`calc.h`
 
 ```C
 #ifndef MYCALC
@@ -50,7 +52,7 @@ int divideix(int op1, int op2);
 #endif
 ```
 
-```calcula.c```
+`calcula.c`
 
 ```C
 #include <stdio.h>
@@ -76,7 +78,7 @@ Imprimirem el resultat com en la resta de casos, de forma, que l'última línia 
 
 Una vegada comprovat el funcionament, feu el mateix amb el segon exemple, afegint les modificacions corresponents a cada fitxer. Compileu el segon exemple i verifiqueu que tot funciona correctament
 
-```calc.c```
+`calc.c`
 
 ```C
 int suma(int op1, int op2)
@@ -110,7 +112,7 @@ int major(int op1, int op2)
 }
 ```
 
-```calc.h```
+`calc.h`
 
 ```C
 #ifndef MYCALC
@@ -125,7 +127,7 @@ int major(int op1, int op2);
 #endif
 ```
 
-```calcula.c```
+`calcula.c`
 
 ```C
 #include <stdio.h>
@@ -148,7 +150,7 @@ int main()
 
 ### Creeu el fitxer Makefile i proveu de construïr els diferents objectius
 
-Provant el resultat de```make```,```make calcula``` i```make calc.o```. Esborra tots els fitxers objecte i executables entre cada prova.
+Provant el resultat de `make`, `make calcula` i `make calc.o`. Esborra tots els fitxers objecte i executables entre cada prova.
 
 ```C
 calcula: calcula.c calc.o
@@ -162,9 +164,9 @@ calc.o: calc.c calc.h
 
 ![img](4b.png)
 
-### Prova a invertir l’ordre de les regles en el Makefile, primer la regla de calc.o i després calcula
+### Prova d'invertir l’ordre de les regles en el Makefile, primer la regla de calc.o i després calcula
 
-Executa el```make```en aquest Makefile i explica els resultats.
+Executa el `make` en aquest Makefile i explica els resultats.
 
 ```C
 calc.o: calc.c calc.h
@@ -176,7 +178,7 @@ calcula: calcula.c calc.o
 
 ![img](4c.png)
 
-El que passa és que el```make``` construeix per defecte el primer que indiquem.
+El que passa és que el `make` construeix per defecte el primer que indiquem.
 
 ### Restaura el fitxer Makefile amb l’ordre anterior
 
