@@ -1,38 +1,6 @@
-<!-- markdownlint-disable MD033 -->
-
-<br></br>
+# Automatització amb make
 
 ![img](logo.jpg)
-
-<br></br>
-<br></br>
-<br></br>
-
-**<div style="font-size:30px"><center>PAC3 A</center></div>**
-<br></br>
-**<div style="font-size:35px"><center>Automatització amb make</center></div>**{style="color: Firebrick"}
-
-----
-
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-
-![img](logoi2.png)
-
-<div style="page-break-after: always; "></div>
-
-<br></br>
-<br></br>
-
-# Índice
-
-[[TOC]]
-
-<div style="page-break-after: always; "></div>
 
 ## hola.c
 
