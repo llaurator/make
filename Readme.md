@@ -1,7 +1,5 @@
 # Automatització amb make
 
-{:toc}
-
 ![img](logo.jpg)
 
 ## hola.c
